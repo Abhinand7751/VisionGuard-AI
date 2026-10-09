@@ -1,0 +1,54 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.log
+.DS_Store
+Thumbs.db
+
+backend/storage/*
+!backend/storage/.gitkeep
+
+ai_models/*
+!ai_models/.gitkeep
+datasets/*
+!datasets/.gitkeep
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Temporary test files
+stream_test.bin
+
+# Editor settings
+.vscode/
+
+# Environment files
+.env.*
+!.env.example
+
+# AI model weights
+*.pt
+*.onnx
+*.weights
+
+# Local camera captures and uploads
+snapshots/
+uploads/
